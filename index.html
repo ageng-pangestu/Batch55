@@ -2,35 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://kit.fontawesome.com/3fbc68957e.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
+    <!--Header-->
+    <nav>
+        <div class="header">
+            <ul>
+                <li>
+                    <img src="https://dumbways.id/assets/images/brandred.png" alt="">
+                </li>
+                <li class="nav-link">
+                    <a href="index.html" style="font-weight: bold;">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="myProject.html">My Project</a>
+                </li>
+                <li class="nav-link">
+                    <a href="testimonial.html">Testimonials</a>
+                </li>
+            </ul>
+
+            <div class="header-contact">
+                <a href="contact.html" class="btn-contact">Contact Me</a>
+            </div>
+            
+            <div class="header-hamburger">
+                <i class="fa-solid fa-bars" id="hamburger-button" onclick="openHamburger()"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html" >Home</a>
+        <a href="myProject.html">MyProject</a>
+        <a href="contact.html" class="active">Contact Me</a>
+    </div>
+
+    <!--Card-->
     <div class="card">
         <div class="greeting">
-            <h1>Halo, Selamat Datang</h1>
-            <p>Selamat datang di web pertama saya, saya Ageng Pangestu sedang belajar fullstack developer di dumbways, bersama para mentor yang asik dan teman-teman kita belajar html, css, dan javascript. Saya selalu semangat untuk menantikan materi selanjutnya disini. Semangat.</p>
-        </div>
-        
-        <div class="link">
-            <a href="contact.html" class="btn-contact">Contact</a>
-            <a href="" class="btn-download">download CV <span><i class="fa-solid fa-download"></i></span></a>
-            <div class="link-socialmedia">
-                <a href=""><span><i class="fa-brands fa-linkedin"></i></span></a></i>
+            <h1>Halo, Selamat datang</h1>
+            <p>Saya Ageng Pangestu, saat ini saya sedang belajar Fullstack Developer di dumbways. mentor-mentor yang seru dan asik membuat saya lebih bersemangat untuk terus mengikuti bootcamp ini. Semangat semuanya!</p>
+            <div class="download-content">
+                <a href="contact.html" class="btn-contact2">contact</a>                
+                <a href="" class="btn-downloadcv">download CV <span><i class="fa-solid fa-download"></i></span></a>
+            </div>
+            <div class="link-logo">
+                <a href=""><span><i class="fa-brands fa-linkedin"></i></span></a>
                 <a href=""><span><i class="fa-brands fa-square-instagram"></i></span></a>
                 <a href=""><span><i class="fa-brands fa-square-facebook"></i></span></a>
                 <a href=""><span><i class="fa-brands fa-square-twitter"></i></span></a>
             </div>
-            
-        </div>
 
-        <div class="image">
-            <img src="img/foto2.jpeg" alt="Foto ageng">
-            <h3>Ageng Pangestu</h3>
-            <p>Fullstack Developer</p>
         </div>
+                
+        <div class="image">
+            <div class="image-content">
+                <img class="foto-saya" src="assets/image/foto2.jpeg" alt="Foto saya">
+                <h3>Ageng Pangestu</h3>
+                <p>Fullstack Developer</p>
+            </div>
+        </div>
+        
     </div>
+
+    <a href="projectDetail.html">test dummy project detail</a>
+    <script src="assets/js/nav.js"></script>
 </body>
 </html>

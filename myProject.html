@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/myProject.css">
+    <script src="https://kit.fontawesome.com/3fbc68957e.js" crossorigin="anonymous"></script>
+    <title>My Project</title>
+</head>
+
+<body>
+    <!--Header-->
+    <nav>
+        <div class="header">
+            <ul>
+                <li>
+                    <img src="https://dumbways.id/assets/images/brandred.png" alt="">
+                </li>
+                <li class="nav-link">
+                    <a href="index.html" style="font-weight: bold;">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="myProject.html">MyProject</a>
+                </li>
+            </ul>
+
+            <div class="header-contact">
+                <a href="contact.html" class="btn-contact">Contact Me</a>
+            </div>
+            
+            <div class="header-hamburger">
+                <i class="fa-solid fa-bars" id="hamburger-button" onclick="openHamburger()"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html" >Home</a>
+        <a href="myProject.html">MyProject</a>
+        <a href="contact.html" class="active">Contact Me</a>
+    </div>
+
+    <!-- Project page -->
+    <div class="blog">
+        <div class="blog-form">
+            <div class="form-container">
+                <form onsubmit="submitProject(event)">
+                    <h1>ADD MY PROJECT</h1>
+                    <div>
+                        <label for="projectName">Project Name</label>
+                        <input type="text" id="inputProjectName" class="textbar">
+                    </div>
+                    <div class="date-input">
+                        <div class="start">
+                            <label for="startDate">Start Date</label>
+                            <input type="date" id="inputStartDate" class="textbar">
+                        </div>
+
+                        <div class="end">
+                            <label for="endDate">End Date</label>
+                            <input type="date" id="inputEndDate" class="textbar">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <textarea id="inputDescription"></textarea>
+                    </div>
+                    
+                    <p>Technologies</p>
+                    <div class="radio-button">
+                        <div>
+                            <input type="radio" id="RadioNodeJs" name="technologies" value="Node Js">
+                            <label for="technologies">Node Js</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="RadioReactJs" name="technologies" value="React Js">
+                            <label for="technologies">React Js</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="RadioNextJs" name="technologies" value="Next Js">
+                            <label for="technologies">Next Js</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="RadioTypescript" name="technologies" value="Typescript">
+                            <label for="technologies">Typescript</label>
+                        </div>
+                    </div>
+                    
+                    <div class="image-content">
+                        <label for="image">Upload Image</label>
+                        <input type="file" id="inputImage">
+                    </div>
+
+                    <div class="button-submit">
+                        <button>Submit</button>
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <h1 class="project-title">MY PROJECT</h1>
+
+        <div id="project" class="project-list">
+
+        </div>
+    
+    </div>
+    
+    <script src="assets/js/myProject.js"></script>
+    <script src="assets/js/nav.js"></script>
+
+</body>
+
+</html>
