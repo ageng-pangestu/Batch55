@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(227, 238, 238);
+}
+
+/*Header CSS*/
+nav{
+    background-color: white;
+    height: 80px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header ul{
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 35px;
+}
+
+.header li{
+    /* background-color: antiquewhite; */
+    width: 90px;
+}
+
+.header img{
+    height: 50px;
+}
+
+.nav-link a {
+color: black;
+text-decoration: none;
+}
+
+.nav-link a:hover{
+    color: orangered;
+}
+
+.btn-contact{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header-contact {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.header-contact :hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+/* Isi halaman testimonial */
+.testimonial-container{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    margin: 20px auto;
+    padding-bottom: 50px;
+}
+
+.testimonial-container h1{
+    text-align: center;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+.rating-container{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.rating-container h2{
+    text-align: center;
+}
+
+.rating-btn{
+/* background-color: blueviolet; */
+width: 500px;
+text-align: center;
+margin: 20px auto;
+}
+
+.rating-container button{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px grey;
+}
+
+
+.rating-container button:hover{
+    background-color: orangered;
+    border: none;
+    box-shadow: none;
+}
+
+.testimonial-content {
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-content .card{
+    background-color: yellowgreen;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 5px grey;
+    padding: 10px;
+}
+
+.testimonial-content .card:hover{
+    box-shadow: 0px 7px 7px gray;
+    transition: 1s;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .quotes{
+    font-style: italic;
+    /* font-size: 15px; */
+}
+.card .name{
+    font-weight: bold;
+    text-align: end;
+}
+
+.card .rating{
+    text-align: end;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* Reponsive */
+.header-hamburger {
+    display: none;
+}
+
+.hamburger-nav-container{
+    display: none;
+}
+
+.hamburger-nav-container a{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .hamburger-nav-container {
+        background-color:orangered;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+    }
+    
+    .hamburger-nav-container a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: orangered;
+        color: white;
+        padding: 10px 0;
+    }
+    
+    .hamburger-nav-container .active{
+        background-color: white;
+        color: black;
+    }
+    
+    
+    .hamburger-nav-container a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .hamburger-nav-container .active:hover{
+        color: orangered;
+    }    
+    
+    .header-hamburger{
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+    
+    .header-hamburger i{
+        margin: auto 0;
+        font-size: 30px;
+    }
+    
+    .header-hamburger i:hover{
+        background-color: white;
+        color: orangered;
+    }   
+
+    .nav-link, .header-contact{
+        display: none;
+    } 
+}
