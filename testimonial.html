@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/testimonial.css">
+    <script src="https://kit.fontawesome.com/3fbc68957e.js" crossorigin="anonymous"></script>
+    <title>Testimonial</title>
+</head>
+<body>
+    <!--Header-->
+    <nav>
+        <div class="header">
+            <ul>
+                <li>
+                    <img src="https://dumbways.id/assets/images/brandred.png" alt="">
+                </li>
+                <li class="nav-link">
+                    <a href="index.html" style="font-weight: bold;">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="myProject.html">My Project</a>
+                </li>
+                <li class="nav-link">
+                     <a href="testimonial.html">Testimonials</a>
+                </li>
+            </ul>
+
+            <div class="header-contact">
+                <a href="contact.html" class="btn-contact">Contact Me</a>
+            </div>
+            
+            <div class="header-hamburger">
+                <i class="fa-solid fa-bars" id="hamburger-button" onclick="openHamburger()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="hamburger-nav-container" id="hamburger-nav-container">
+        <a href="index.html" >Home</a>
+        <a href="myProject.html">MyProject</a>
+        <a href="contact.html" class="active">Contact Me</a>
+    </div>
+    
+    <!-- Isi halaman -->
+ 
+    <div class="testimonial-container">
+        <h1>My Testimonials</h1>
+
+        <div class="rating-container">
+            <h2>Rating By Start</h2>
+            <div class="rating-btn">
+                <button onclick="allTestimonial()">All</button>
+                <button onclick="filterTesttimonial(1)">1<i class="fa-solid fa-star"></i></button>
+                <button onclick="filterTesttimonial(2)">2<i class="fa-solid fa-star"></i></button>
+                <button onclick="filterTesttimonial(3)">3<i class="fa-solid fa-star"></i></button>
+                <button onclick="filterTesttimonial(4)">4<i class="fa-solid fa-star"></i></button>
+                <button onclick="filterTesttimonial(5)">5<i class="fa-solid fa-star"></i></button>
+            </div>
+        </div>
+
+        <div class="testimonial-content" id="testimonial-content">    
+            <div class="card">
+                <img src="assets/image/foto1.jpeg" alt="content foto">
+                <p class="quotes">"Belajar fullstack developer di dumbways seru sekali"</p>
+                <p class="name">-Ageng Pangestu</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="assets/js/testimonial.js"></script>
+</body>
+</html>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <script src="https://kit.fontawesome.com/3fbc68957e.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Contact</title>
 </head>
+
 <body>
+    <nav>
     <!--Header-->
     <nav>
         <div class="header">
@@ -41,35 +45,32 @@
         <a href="contact.html" class="active">Contact Me</a>
     </div>
 
-    <!--Card-->
-    <div class="card">
-        <div class="greeting">
-            <h1>Halo, Selamat datang</h1>
-            <p>Saya Ageng Pangestu, saat ini saya sedang belajar Fullstack Developer di dumbways. mentor-mentor yang seru dan asik membuat saya lebih bersemangat untuk terus mengikuti bootcamp ini. Semangat semuanya!</p>
-            <div class="download-content">
-                <a href="contact.html" class="btn-contact2">contact</a>                
-                <a href="" class="btn-downloadcv">download CV <span><i class="fa-solid fa-download"></i></span></a>
-            </div>
-            <div class="link-logo">
-                <a href=""><span><i class="fa-brands fa-linkedin"></i></span></a>
-                <a href=""><span><i class="fa-brands fa-square-instagram"></i></span></a>
-                <a href=""><span><i class="fa-brands fa-square-facebook"></i></span></a>
-                <a href=""><span><i class="fa-brands fa-square-twitter"></i></span></a>
-            </div>
+    <div class="container">
+        <form class="form-contact">
+            <label for="label-contact">Name</label>
+            <input type="text" class="input-contact" id="inputName">
 
-        </div>
-                
-        <div class="image">
-            <div class="image-content">
-                <img class="foto-saya" src="assets/image/foto2.jpeg" alt="Foto saya">
-                <h3>Ageng Pangestu</h3>
-                <p>Fullstack Developer</p>
-            </div>
-        </div>
-        
+            <label for="label-contact">Email</label>
+            <input type="text" class="input-contact" id="inputEmail">
+
+            <label for="label-contact">Phone Number</label >
+            <input type="text" class="input-contact" id="inputNumber">
+
+            <label for="label-contact">Subject</label >
+            <select class="input-contact" id="inputSubject">
+                <option></option>
+                <option>Frontend Developer</option>
+                <option>Backend Developer</option>
+                <option>Fullstack Developer</option>
+            </select>
+
+            <label for="label-contact">Your Message</label>
+            <textarea class="input-contact" id="inputMessage"></textarea>
+
+            <input type="button" value="submit" class="submit-contact" onclick="submitData()">
+        </form>
     </div>
-
-    <a href="projectDetail.html">test dummy project detail</a>
+    <script src="assets/js/contact.js"></script>
     <script src="assets/js/nav.js"></script>
 </body>
 </html>
