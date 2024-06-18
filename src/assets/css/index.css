@@ -1,0 +1,122 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+/*
+#fff1e1
+#1d3c45
+#d2601a
+*/
+
+/* Navbar CSS start------------------------------------------------------------------------------------------*/
+
+.btn {
+  background-color: #1d3c45 !important;
+}
+.btn-dark:hover {
+  background-color: #d2601a !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #1d3c45 !important;
+}
+.nav-link:hover {
+  color: #d2601a !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-color: white !important;
+}
+/* Navbar CSS end------------------------------------------------------------------------------------------*/
+
+/* Card CSS start------------------------------------------------------------------------------------------*/
+.card {
+  box-shadow: 0px 5px 5px grey;
+}
+
+.card-body {
+  color: #1d3c45 !important;
+}
+
+.card-btn .btn {
+  background-color: #1d3c45;
+}
+
+.card-btn .btn:hover {
+  background-color: #d2601a;
+}
+
+.card-btn .download-link {
+  color: #1d3c45 !important;
+}
+
+.card-btn .download-link:hover {
+  color: #d2601a !important;
+}
+
+.link-logo a {
+  color: #1d3c45 !important;
+}
+
+.link-logo a:hover {
+  color: #d2601a !important;
+}
+
+.img {
+  box-shadow: 0 2px 5px grey;
+}
+
+.img h4,
+p {
+  color: #1d3c45;
+}
+/* Card CSS end------------------------------------------------------------------------------------------*/
+
+/* My Project CSS start------------------------------------------------------------------------------------------*/
+.project-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.project-content-container h1,
+p {
+  color: #1d3c45;
+}
+
+.project-info .project-name:hover {
+  color: #d2601a;
+}
+
+.project-info a {
+  color: #1d3c45;
+}
+
+.btn-project {
+  background-color: #1d3c45;
+  color: white !important;
+  width: 90px;
+  height: 30px;
+}
+
+.btn-project:hover {
+  background-color: #d2601a;
+}
+
+.container-fluid .bg-light {
+  background-color: white !important;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 5px grey !important;
+  transition: 1s;
+}
+/* My Project CSS end------------------------------------------------------------------------------------------*/

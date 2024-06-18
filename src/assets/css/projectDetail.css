@@ -1,0 +1,54 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+/*
+    #fff1e1
+    #1d3c45
+    #d2601a
+    */
+/* Navbar CSS start*/
+
+.btn {
+  background-color: #1d3c45 !important;
+}
+.btn-dark:hover {
+  background-color: #d2601a !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #1d3c45 !important;
+}
+.nav-link:hover {
+  color: #d2601a !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-color: white !important;
+}
+/* Navbar CSS end*/
+
+/* Project Detail CSS start */
+.projectDetail-container h1,
+p {
+  color: #1d3c45;
+}
+
+.projectDetail-container h2 {
+  color: #1d3c45;
+}
+
+.content-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+/* Project Detail CSS end */
