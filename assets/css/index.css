@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://images2.alphacoders.com/121/1215709.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: whitesmoke !important;
+}
+
+/*
+#fff1e1
+#1d3c45
+#d2601a
+*/
+/* Navbar CSS start------------------------------------------------------------------------------------------*/
+
+nav .btn {
+  background-color: #005b7c !important;
+}
+nav .btn-dark:hover {
+  background-color: #00a3e0 !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #ffeb00 !important;
+}
+.nav-link:hover {
+  color: #00a3e0 !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-image: url("https://hips.hearstapps.com/vidthumb/c0124ab4-e1f9-4d97-8fbd-287697383061/thumb_1920x1080_00002_1707825648_38764.jpg");
+  background-size: cover;
+  /* background-color: #a6051a !important; */
+}
+/* Navbar CSS end------------------------------------------------------------------------------------------*/
+
+/* Card CSS start------------------------------------------------------------------------------------------*/
+.card {
+  box-shadow: 0px 2px 5px grey;
+  background-image: url("../image/240422_SF-Car_Miami27_ecd43c8a-cd31-4d12-902b-167060ba40e0-1.jpg");
+  /* background-size: cover; */
+}
+
+.card-body {
+  color: whitesmoke !important;
+}
+
+.card-btn .btn {
+  background-color: #a6051a;
+}
+
+.card-btn .btn:hover {
+  background-color: #00a3e0;
+}
+
+.card-btn .download-link {
+  color: whitesmoke !important;
+}
+
+.card-btn .download-link:hover {
+  color: #ffeb00 !important;
+}
+
+.link-logo a {
+  color: whitesmoke !important;
+}
+
+.link-logo a:hover {
+  color: #00a3e0 !important;
+}
+
+.img {
+  background-image: url(../image/blue.jpg);
+}
+
+.img h4,
+p {
+  color: whitesmoke;
+}
+/* Card CSS end------------------------------------------------------------------------------------------*/

@@ -1,0 +1,33 @@
+[{
+  "image":"https://i2-prod.football.london/incoming/article28806096.ece/ALTERNATES/s615/0_Mykhailo-Mudryk.jpg",
+  "quotes":"ayo liga melon",
+  "name":"Mykhailo Mudryk",
+  "rating":"1",
+},
+{
+  "image":"https://i2-prod.football.london/incoming/article28806096.ece/ALTERNATES/s615/0_Mykhailo-Mudryk.jpg",
+  "quotes":"Bapak lo aja yang bondol",
+  "name":"Flora JKT48",
+  "rating":"5",
+},
+{
+  "image":"https://i2-prod.football.london/incoming/article28806096.ece/ALTERNATES/s615/0_Mykhailo-Mudryk.jpg",
+  "quotes":"Serunya belajar di dumbways",
+  "name":"Ageng Pangestu",
+  "rating":"5",
+},
+{
+  "image":"https://i2-prod.football.london/incoming/article28806096.ece/ALTERNATES/s615/0_Mykhailo-Mudryk.jpg",
+  "quotes":"kaizoku ou ni ore wa ni naru",
+  "name":"Luffy",
+  "rating":"3",
+},
+{
+  "image":"https://i2-prod.football.london/incoming/article28806096.ece/ALTERNATES/s615/0_Mykhailo-Mudryk.jpg",
+  "quotes":"aku janji bakal setia",
+  "name":"Buaya",
+  "rating":"2",
+},
+]
+
+https://api.npoint.io/eb69bf8dbd9332cfa29e
