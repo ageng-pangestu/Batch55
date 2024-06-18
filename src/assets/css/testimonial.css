@@ -1,0 +1,192 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+/*
+  #fff1e1
+  #1d3c45
+  #d2601a
+  */
+/* Navbar CSS start*/
+
+.btn {
+  background-color: #1d3c45 !important;
+}
+.btn-dark:hover {
+  background-color: #d2601a !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #1d3c45 !important;
+}
+.nav-link:hover {
+  color: #d2601a !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-color: white !important;
+}
+/* Navbar CSS end*/
+
+/* Isi halaman testimonial */
+.testimonial-container {
+  width: 80%;
+  /* background-color: antiquewhite; */
+  margin: 20px auto;
+  padding-bottom: 50px;
+}
+
+.testimonial-container h1 {
+  text-align: center;
+  padding: 20px;
+  /* background-color: aqua; */
+}
+
+.rating-container {
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.rating-container h2 {
+  text-align: center;
+}
+
+.rating-btn {
+  /* background-color: blueviolet; */
+  width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.rating-container button {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 25px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  box-shadow: 0 2px 5px grey;
+}
+
+.rating-container button:hover {
+  background-color: orangered;
+  border: none;
+  box-shadow: none;
+}
+
+.testimonial-content {
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial-content .card {
+  background-color: yellowgreen;
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 2px 5px grey;
+  padding: 10px;
+}
+
+.testimonial-content .card:hover {
+  box-shadow: 0px 7px 7px gray;
+  transition: 1s;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .quotes {
+  font-style: italic;
+  /* font-size: 15px; */
+}
+.card .name {
+  font-weight: bold;
+  text-align: end;
+}
+
+.card .rating {
+  text-align: end;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/* Reponsive */
+.header-hamburger {
+  display: none;
+}
+
+.hamburger-nav-container {
+  display: none;
+}
+
+.hamburger-nav-container a {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .hamburger-nav-container {
+    background-color: orangered;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+  }
+
+  .hamburger-nav-container a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .hamburger-nav-container .active {
+    background-color: white;
+    color: black;
+  }
+
+  .hamburger-nav-container a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .hamburger-nav-container .active:hover {
+    color: orangered;
+  }
+
+  .header-hamburger {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .header-hamburger i {
+    margin: auto 0;
+    font-size: 30px;
+  }
+
+  .header-hamburger i:hover {
+    background-color: white;
+    color: orangered;
+  }
+
+  .nav-link,
+  .header-contact {
+    display: none;
+  }
+}
