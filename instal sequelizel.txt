@@ -1,0 +1,16 @@
+https://sequelize.org/docs/v7/cli/
+
+Init
+- npm i sequelize
+- npm install --save pg pg-hstore
+
+Installing
+- npm install --save-dev sequelize-cli
+- npx sequelize-cli init
+
+Creating the first Model (and Migration)
+- npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+
+Running Migrations
+- npx sequelize-cli db:migrate
+
