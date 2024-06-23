@@ -1,0 +1,3 @@
+- npm i bcrypt
+- npm i express-session
+- npm i express-flash

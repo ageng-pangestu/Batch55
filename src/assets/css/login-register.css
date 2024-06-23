@@ -1,0 +1,59 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+/*
+  #fff1e1
+  #1d3c45
+  #d2601a
+  */
+
+/* Navbar CSS start------------------------------------------------------------------------------------------*/
+
+.btn {
+  background-color: #1d3c45 !important;
+}
+.btn-dark:hover {
+  background-color: #d2601a !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #1d3c45 !important;
+}
+.nav-link:hover {
+  color: #d2601a !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-color: white !important;
+}
+/* Navbar CSS end------------------------------------------------------------------------------------------*/
+
+/* Form CSS start-----------------------------------------------------------------------------------------*/
+.form-container {
+  background-color: white !important;
+}
+
+form h3 {
+  color: #1d3c45;
+}
+.form-container .form-label {
+  color: #1d3c45;
+}
+
+.btn-submit button {
+  background-color: #1d3c45 !important;
+}
+
+.btn-submit button:hover {
+  background-color: #d2601a !important;
+}
+/* Form CSS start-----------------------------------------------------------------------------------------*/

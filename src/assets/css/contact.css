@@ -1,0 +1,149 @@
+body {
+  background-color: whitesmoke !important;
+}
+
+/*
+    #fff1e1
+    #1d3c45
+    #d2601a
+    */
+/* Navbar CSS start*/
+
+.btn {
+  background-color: #1d3c45 !important;
+}
+.btn-dark:hover {
+  background-color: #d2601a !important;
+}
+
+.nav-item {
+  margin-right: 20px !important;
+}
+
+.nav-link {
+  color: #1d3c45 !important;
+}
+.nav-link:hover {
+  color: #d2601a !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar {
+  background-color: white !important;
+}
+/* Navbar CSS end*/
+
+/* Form CSS */
+.container {
+  /* background-color: teal; */
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.form-contact {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input-contact {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-contact textarea {
+  resize: none;
+}
+
+.submit-contact {
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.form-contact .submit-contact:hover {
+  background-color: orangered;
+}
+
+/* Repomsive Navbar */
+
+.header-hamburger {
+  display: none;
+}
+
+.hamburger-nav-container {
+  display: none;
+}
+
+.hamburger-nav-container a {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .hamburger-nav-container {
+    background-color: orangered;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger-nav-container a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .hamburger-nav-container .active {
+    background-color: white;
+    color: black;
+  }
+
+  .hamburger-nav-container a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .hamburger-nav-container .active:hover {
+    color: orangered;
+  }
+
+  .header-hamburger {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .header-hamburger i {
+    margin: auto 0;
+    font-size: 30px;
+  }
+
+  .header-hamburger i:hover {
+    background-color: white;
+    color: orangered;
+  }
+
+  .nav-link,
+  .header-contact {
+    display: none;
+  }
+}
